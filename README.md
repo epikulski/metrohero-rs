@@ -8,11 +8,13 @@ acquire one is published at: <https://dcmetrohero.com/apis>.
 When using the CLI, provide your key via CLI argument or by setting the `METROHERO_API_KEY`
 environment variable.
 
-## Getting Started 
+## Getting Started
 To build, clone this repository and run:
 ```shell
+git clone https://github.com/epikulski/metrohero-rs.git
+cd metrohero-rs
 cargo build
-cargo test 
+cargo test
 ```
 
 ## Using the metrohero-rs CLI
