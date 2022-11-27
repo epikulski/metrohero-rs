@@ -37,6 +37,5 @@ jobs:
       run: cargo test --doc
       if: ${{ env.METROHERO_API_KEY != '' }}
 
-
     - name: Run linters
       run: cargo clippy
