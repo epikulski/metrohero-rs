@@ -33,6 +33,9 @@ jobs:
 
     - name: Run doc tests
       run: cargo test --doc
+      if: ${{ github.branch == 'main' }}
+      env:
+        METROHERO_API_KEY: ${{ secrets.METROHERO_API_KEY }}
 
     - name: Run linters
       run: cargo clippy
