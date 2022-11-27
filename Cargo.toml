@@ -22,4 +22,4 @@ strum_macros = "0.24"
 [dev-dependencies]
 assert_cmd = "2.0.6"
 mockito = "0.31.0"
-rstest = "0.15.0"
+rstest = "0.16.0"
