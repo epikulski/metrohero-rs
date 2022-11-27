@@ -24,6 +24,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: ⚡ Cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
@@ -31,7 +40,7 @@ jobs:
         run: cargo doc --release --no-deps
 
       - name: Add index.html for Github pages
-        run: echo "<meta http-equiv=\"refresh\" content=\"0; url=build_wheel\">" > target/doc/index.html
+        run: echo "<meta http-equiv=\"refresh\" content=\"0; url=metrohero_rs\">" > target/doc/index.html
 
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v1
