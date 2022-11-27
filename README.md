@@ -89,4 +89,4 @@ cargo run stations | grep -i rosslyn
 ```
 
 ## Using metrohero-rs as a Library
-Library documentation is availble by running `cargo doc --open`.
+Library documentation is available at: <https://epikulski.github.io/metrohero-rs/metrohero_rs/>
