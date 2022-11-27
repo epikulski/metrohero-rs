@@ -1,3 +1,4 @@
+#![warn(rustdoc::missing_crate_level_docs)]
 #![doc = include_str!("../README.md")]
 //! # Examples
 //!```rust

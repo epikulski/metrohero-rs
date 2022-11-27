@@ -1,3 +1,4 @@
+#![warn(missing_docs)]
 //! Helpers for printing MetroHero CLI content to the console.
 use std::cmp;
 

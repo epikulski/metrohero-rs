@@ -1,3 +1,4 @@
+#![warn(missing_docs)]
 //! A client for requesting data from the MetroHero API.
 //!
 //! API Documentation: <https://dcmetrohero.com/apis>
