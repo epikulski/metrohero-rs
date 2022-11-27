@@ -13,6 +13,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      METROHERO_API_KEY: ${{ secrets.METROHERO_API_KEY }}
 
     steps:
     - uses: actions/checkout@v3
@@ -33,9 +35,8 @@ jobs:
 
     - name: Run doc tests
       run: cargo test --doc
-      if: ${{ github.branch == 'main' }}
-      env:
-        METROHERO_API_KEY: ${{ secrets.METROHERO_API_KEY }}
+      if: ${{ env.METROHERO_API_KEY != '' }}
+
 
     - name: Run linters
       run: cargo clippy
