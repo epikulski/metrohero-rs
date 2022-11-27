@@ -20,7 +20,7 @@ pub struct Cli {
 
 #[derive(Subcommand)]
 pub enum Commands {
-    /// Get information about a route.
+    /// Get information about a route between two stations.
     Plan {
         #[arg()]
         start_station: String,
@@ -28,13 +28,13 @@ pub enum Commands {
         end_station: String,
     },
 
-    /// Get information about as station.
+    /// Get information about a Metrorail station.
     Departures {
         #[arg()]
         station: String,
     },
 
-    /// Print a table of station names and their RTU code.
+    /// Print a table of station names and their RTU codes.
     Stations {},
 }
 
