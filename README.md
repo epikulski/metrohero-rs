@@ -2,7 +2,7 @@
 
 An unofficial rust client and CLI for the MetroHero API.
 
-Using the [`MetroHeroClient`](MetroHeroClient) requires an API key. Information on how to
+Using `metrohero-rs` requires an API key. Information on how to
 acquire one is published at: <https://dcmetrohero.com/apis>.
 
 When using the CLI, provide your key via CLI argument or by setting the `METROHERO_API_KEY`
