@@ -1,4 +1,4 @@
-name: Rust
+name: Cargo
 
 on:
   push:
@@ -11,7 +11,6 @@ env:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     env:
       METROHERO_API_KEY: ${{ secrets.METROHERO_API_KEY }}
@@ -39,3 +38,43 @@ jobs:
 
     - name: Run linters
       run: cargo clippy
+
+  deploy-docs:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: "pages"
+      cancel-in-progress: true
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: ⚡ Cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+
+      - name: Build rust docs
+        run: cargo doc --release --no-deps
+
+      - name: Add index.html for Github pages
+        run: echo "<meta http-equiv=\"refresh\" content=\"0; url=metrohero_rs\">" > target/doc/index.html
+
+      - name: Upload artifacts
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./target/doc
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
