@@ -1,6 +1,6 @@
 # metrohero-rs
 
-An unofficial rust client for the MetroHero API.
+An unofficial rust client and CLI for the MetroHero API.
 
 Using the [`MetroHeroClient`](MetroHeroClient) requires an API key. Information on how to
 acquire one is published at: <https://dcmetrohero.com/apis>.
