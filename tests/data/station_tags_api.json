@@ -1,0 +1,22 @@
+{
+  "numTagsByType": {
+    "EMPTY": 0,
+    "FRIENDLY_OR_HELPFUL_STAFF": 0,
+    "AMPLE_SECURITY": 0,
+    "FREE_MASKS_AVAILABLE": 0,
+    "FREE_HAND_SANITIZER_AVAILABLE": 0,
+    "CROWDED": 0,
+    "UNCOMFORTABLE_TEMPS": 0,
+    "LONG_WAITING_TIME": 0,
+    "POSTED_TIMES_INACCURATE": 0,
+    "NEEDS_WORK": 0,
+    "BROKEN_ELEVATOR": 0,
+    "BROKEN_ESCALATOR": 0,
+    "UNFRIENDLY_OR_UNHELPFUL_STAFF": 0,
+    "SMOKE_OR_FIRE": 0,
+    "NO_FREE_MASKS": 0,
+    "NO_FREE_HAND_SANITIZER": 0
+  },
+  "numPositiveTags": 0,
+  "numNegativeTags": 0
+}

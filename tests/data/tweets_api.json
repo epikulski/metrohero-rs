@@ -1,0 +1,154 @@
+[
+  {
+    "twitterId": 1591918817273434112,
+    "text": "🔴 🚉 Shuttle buses will replace train service between Glenmont and Fort Totten Station due to scheduled maintenance. #backtobetter #wmata For more details Sign-up for alerts at https://t.co/3SkZfuJjtd",
+    "date": "2022-11-13T17:19:57-05:00",
+    "lineCodes": [
+      "RD"
+    ],
+    "stationCodes": [
+      "B10",
+      "B11",
+      "B06",
+      "B07",
+      "B08",
+      "B09"
+    ],
+    "keywords": [],
+    "userId": 1522464770,
+    "userName": "Metrobusinfo",
+    "twitterIdString": "1591918817273434112",
+    "url": "https://twitter.com/1522464770/status/1591918817273434112"
+  },
+  {
+    "twitterId": 1591918578080563207,
+    "text": "Westbound 6-car BL/Huntington Train 457 changed its destination to OR/Vienna/Fairfax-GMU at or near Cheverly on track 2. (5:18pm)",
+    "date": "2022-11-13T17:19:00-05:00",
+    "lineCodes": [
+      "OR",
+      "BL"
+    ],
+    "stationCodes": [
+      "D11"
+    ],
+    "keywords": [],
+    "userId": 3901368507,
+    "userName": "metroheroalerts",
+    "twitterIdString": "1591918578080563207",
+    "url": "https://twitter.com/3901368507/status/1591918578080563207"
+  },
+  {
+    "twitterId": 1591918012088864768,
+    "text": "Eastbound 6-car SV/Largo Town Center Train 604 has been holding at East Falls Church on track 1 for at least 5 mins. (5:16pm)",
+    "date": "2022-11-13T17:16:45-05:00",
+    "lineCodes": [
+      "SV",
+      "OR"
+    ],
+    "stationCodes": [
+      "K05"
+    ],
+    "keywords": [
+      "trains holding"
+    ],
+    "userId": 3901368507,
+    "userName": "metroheroalerts",
+    "twitterIdString": "1591918012088864768",
+    "url": "https://twitter.com/3901368507/status/1591918012088864768"
+  },
+  {
+    "twitterId": 1591915369593065472,
+    "text": "Westbound 6-car SV/Wiehle-Reston East Train 608 has been holding at Clarendon on track 2 for at least 5 mins. (5:06pm)",
+    "date": "2022-11-13T17:06:15-05:00",
+    "lineCodes": [
+      "SV",
+      "OR"
+    ],
+    "stationCodes": [
+      "K02"
+    ],
+    "keywords": [
+      "trains holding"
+    ],
+    "userId": 3901368507,
+    "userName": "metroheroalerts",
+    "twitterIdString": "1591915369593065472",
+    "url": "https://twitter.com/3901368507/status/1591915369593065472"
+  },
+  {
+    "twitterId": 1591914362842873858,
+    "text": "Westbound 6-car SV/Wiehle-Reston East Train 607 has been holding at Virginia Square-GMU on track 2 for at least 10 mins. (5:02pm)",
+    "date": "2022-11-13T17:02:15-05:00",
+    "lineCodes": [
+      "SV",
+      "OR"
+    ],
+    "stationCodes": [
+      "K03"
+    ],
+    "keywords": [
+      "trains holding"
+    ],
+    "userId": 3901368507,
+    "userName": "metroheroalerts",
+    "twitterIdString": "1591914362842873858",
+    "url": "https://twitter.com/3901368507/status/1591914362842873858"
+  },
+  {
+    "twitterId": 1591913167445270531,
+    "text": "Westbound 6-car SV/Wiehle-Reston East Train 607 has been holding at Virginia Square-GMU on track 2 for at least 5 mins. (4:57pm)",
+    "date": "2022-11-13T16:57:30-05:00",
+    "lineCodes": [
+      "SV",
+      "OR"
+    ],
+    "stationCodes": [
+      "K03"
+    ],
+    "keywords": [
+      "trains holding"
+    ],
+    "userId": 3901368507,
+    "userName": "metroheroalerts",
+    "twitterIdString": "1591913167445270531",
+    "url": "https://twitter.com/3901368507/status/1591913167445270531"
+  },
+  {
+    "twitterId": 1591912978709942272,
+    "text": "Eastbound 6-car SV/Largo Town Center Train 603 has been holding at East Falls Church on track 1 for at least 10 mins. (4:56pm)",
+    "date": "2022-11-13T16:56:45-05:00",
+    "lineCodes": [
+      "SV",
+      "OR"
+    ],
+    "stationCodes": [
+      "K05"
+    ],
+    "keywords": [
+      "trains holding"
+    ],
+    "userId": 3901368507,
+    "userName": "metroheroalerts",
+    "twitterIdString": "1591912978709942272",
+    "url": "https://twitter.com/3901368507/status/1591912978709942272"
+  },
+  {
+    "twitterId": 1591911720582533120,
+    "text": "Eastbound 6-car SV/Largo Town Center Train 603 has been holding at East Falls Church on track 1 for at least 5 mins. (4:51pm)",
+    "date": "2022-11-13T16:51:45-05:00",
+    "lineCodes": [
+      "SV",
+      "OR"
+    ],
+    "stationCodes": [
+      "K05"
+    ],
+    "keywords": [
+      "trains holding"
+    ],
+    "userId": 3901368507,
+    "userName": "metroheroalerts",
+    "twitterIdString": "1591911720582533120",
+    "url": "https://twitter.com/3901368507/status/1591911720582533120"
+  }
+]

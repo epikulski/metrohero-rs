@@ -1,0 +1,23 @@
+{
+  "numTagsByType": [
+    {
+      "BAD_OPERATOR": 1,
+      "ISOLATED_CARS": 1,
+      "NEW_TRAIN": 1,
+      "BROKEN_INTERCOM": 0,
+      "CROWDED": 0,
+      "DISRUPTIVE_PASSENGER": 0,
+      "EMPTY": 0,
+      "GOOD_OPERATOR": 0,
+      "GOOD_RIDE": 0,
+      "NEEDS_WORK": 0,
+      "RECENTLY_OFFLOADED": 0,
+      "UNCOMFORTABLE_RIDE": 0,
+      "UNCOMFORTABLE_TEMPS": 0,
+      "WRONG_DESTINATION": 0,
+      "WRONG_NUM_CARS": 0
+    }
+  ],
+  "numPositiveTags": 1,
+  "numNegativeTags": 2
+}
