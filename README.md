@@ -1,3 +1,5 @@
+# The MetroHero API that this CLI relies on is being discontinued, and this CLI will no longer function.
+
 # metrohero-rs
 
 An unofficial rust client and CLI for the MetroHero API.
